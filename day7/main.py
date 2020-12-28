@@ -1,4 +1,4 @@
-from utils import read_file, print_part_1, binary
+from utils import read_file, print_part_1, binary, print_part_2
 
 
 def parse_circuit():
@@ -62,4 +62,4 @@ print_part_1(get_value('a'))
 # -- PART 2 -- #
 values = {'b': get_value('a')}
 
-print_part_1(get_value('a'))
+print_part_2(get_value('a'))
